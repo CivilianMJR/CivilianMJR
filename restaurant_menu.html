@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>All you can Eat BBQ</title>
+        <style>
+            body{
+                background-color: antiquewhite;
+                margin: 20px;
+            }
+            hr{
+                width: 95%;
+                color: black;
+            }
+            #submit{
+                width: 150px;
+                height: 25px;
+                background-color:lightskyblue;
+            }
+            .menu-img{
+                width: 350px;
+                height: 250px;
+            }
+            #chicken{
+                background-color: green;
+                color: white;
+                width: 700px;
+            }
+            #mutton{
+                background-color: red;
+                color: white;
+                width: 700px;
+            }
+            #fish{
+                background-color: blue;
+                color: white;
+                width: 700px;
+            }
+            #logo{
+                width: 150px;
+                height: 150px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img id="logo" src="https://img.freepik.com/free-vector/gradient-restaurant-logo-design_23-2151257068.jpg?semt=ais_hybrid&w=740&q=80" alt="Restaurant Logo">
+            <h1>All you can Eat BBQ</h1>
+            <nav>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#order-form">Place Your Order</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="menu">
+                <h2>Menu</h2>
+                <article>
+                    <figure>
+                        <img class="menu-img" src="https://grilledcheesesocial.com/wp-content/uploads/2024/06/bbq-chicken-thighs-recipe-thumbnail.jpg" alt="Dish-1">
+                        <figcaption><b>Chicken BBQ</b></figcaption>
+                        <i><p id="chicken">A basic and juicy grilled chicken BBQ recipe requires a simple dry rub, 
+                            <br>a grill set up for two-zone cooking (direct and indirect heat), and your favorite barbecue sauce.</p></i>
+                    </figure>
+                </article>
+                   <article>
+                    <figure>
+                        <img class="menu-img" src="https://media.istockphoto.com/id/501266025/photo/seekh-kabab-5.jpg?s=612x612&w=0&k=20&c=D6JXEtB4OLF9A91nAfDYLlh507LlbmP_M9PZBoJqD9Q=" alt="Dish-2">
+                        <figcaption><b>Mutton Kebbab</b></figcaption>
+                        <i><p id="mutton">Mutton kebabs are a diverse range of minced or cubed mutton dishes, 
+                            <br>cooked over a fire and seasoned with aromatic spices.</p></i>
+                    </figure>
+                </article>
+                   <article>
+                    <figure>
+                        <img class="menu-img" src="https://www.kannammacooks.com/wp-content/uploads/masala-fish-fry-recipe-ayala-meen-Mackerel-fry-8.jpg" alt="Dish-3">
+                        <figcaption><b>Fish Fry</b></figcaption>
+                        <p id="fish"><i>The fish is typically battered or breaded,
+                            <br> then deep-fried until crispy on the outside and tender on the inside.</p></i>
+                    </figure>
+                </article>
+            </section>
+            <br>
+            <hr>
+            <br>
+            <section id="order-form">
+                <h2>Place Your Order</h2>
+                <form>
+                    <label>Item: <input type="text" required></label>
+                    <br><br>
+                    Quantity: <label><input type="number" minlength="0" required></label>
+                    <br><br>
+                    Side dish:
+                    <input type="radio"> Sause
+                    <input type="radio"> Chicken Soup
+                    <input type="radio"> Mutton Soup
+                    <input type="radio"> Cool drinks
+                    <input type="radio"> Chicken 65
+                    <br><br>
+                    <textarea placeholder="Need something more....?" rows="20" cols="100"></textarea>
+                    <br><br>
+                    <input id="submit" type="submit" value="Go to Checkout">
+                </form>
+            </section>
+        </main>
+        <br>
+        <hr>
+        <br>
+        <footer>
+            <p>Made with Love by ♡✧˚ ༘ ⋆｡♡˚ <b> mittajagad71955</b></p>
+        </footer>
+    </body>
+</html>
