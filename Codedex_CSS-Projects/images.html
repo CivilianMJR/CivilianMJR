@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Images</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Updock&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+<style>
+    * {
+        margin: 0;
+    }
+
+    h1 {
+        padding-left: 15px;
+        font-weight: 100;
+        font-size: xx-large;
+    }
+
+    .game-head {
+        font-family: "Jersey 25", sans-serif;
+        font-weight: lighter;
+        font-style: initial;
+        font-size: xx-large;
+        text-align: center;
+    }
+
+    .plant-head {
+        font-family: "Updock", cursive;
+        font-weight: lighter;
+        font-style: initial;
+        font-size: xx-large;
+        text-align: center;
+    }
+
+    .movie-head {
+        font-family: "Rubik Dirt", system-ui;
+        font-weight: lighter;
+        font-style: initial;
+        font-size: xx-large;
+        text-align: center;
+    }
+
+    .game-img:hover {
+        width: 18%;
+        height: 260px;
+        opacity: 60%;
+    }
+
+    .plant-img:hover {
+        width: 18%;
+        height: 260px;
+        opacity: 60%;
+    }
+
+    .movie-img:hover {
+        width: 16%;
+        height: 260px;
+        opacity: 60%;
+    }
+
+
+    nav>ul>li {
+        list-style: none;
+        display: inline-flex;
+        padding-top: 2px;
+        margin: 10px;
+    }
+
+    nav>ul>li:hover {
+        font-size: 0.9em;
+        text-decoration: wavy;
+        text-decoration-color: antiquewhite;
+    }
+
+    nav>ul>li>a {
+        color: whitesmoke;
+        text-decoration: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 100px;
+        background-color: #6E8E59;
+        padding: 5px;
+        color: whitesmoke;
+    }
+
+    #images-1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    #images-2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    #images-3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .game-img {
+        width: 15%;
+        height: 250px;
+        padding: 15px;
+    }
+
+    .plant-img {
+        width: 15%;
+        height: 250px;
+        padding: 15px;
+    }
+
+    .movie-img {
+        width: 15%;
+        height: 250px;
+        padding: 15px;
+    }
+
+    footer {
+        background-color: #780C28;
+        padding: 10px;
+        padding-bottom: 10px;
+        color: #E5C95F;
+    }
+
+    #foot {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .fa {
+        padding: 5px;
+        font-size: 20px;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 100px;
+    }
+
+
+    .fa:hover {
+        width: 20px;
+        height: 20px;
+        /* padding: 5px; */
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .fa-facebook {
+        color: #EAFAEA;
+    }
+
+    .fa-reddit {
+        color: #EAFAEA;
+    }
+
+    .fa-instagram {
+        color: #EAFAEA;
+    }
+
+    .fa-pinterest {
+        color: #EAFAEA;
+    }
+</style>
+</head>
+
+<body>
+    <header>
+        <h1 style="font-family:Sedgwick Ave Display, cursive;"> Hello There !!</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="images.html">Images</a></li>
+            </ul>
+        </nav>
+    </header><br>
+    <main>
+        <p class="game-head">Top 4 Games</p>
+        <hr>
+        <section id="images-1">
+            <img class="game-img" src="https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg"
+                alt="game-pic-1">
+            <img class="game-img"
+                src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Red_Dead_Redemption.jpg/250px-Red_Dead_Redemption.jpg"
+                alt="game-pic-2">
+            <img class="game-img" src="https://upload.wikimedia.org/wikipedia/en/b/b6/Ghost_of_Tsushima.jpg"
+                alt="game-pic-3">
+            <img class="game-img"
+                src="https://store-images.s-microsoft.com/image/apps.64301.71718434425658872.697ca9fd-3b48-4708-b6bf-b97acc67c244.99b24b6e-51c0-4188-b0b4-819d89c0ed73"
+                alt="game-pic-4">
+        </section><br>
+        <p class="plant-head">Top 4 Plants</p>
+        <hr>
+        <section id="images-2">
+            <img class="plant-img"
+                src="https://nurserylive.com/cdn/shop/products/nurserylive-rudraksha-tree-plant_512x512.jpg?v=1634227766"
+                alt="plan-pic-1">
+            <img class="plant-img"
+                src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Carnegiea_gigantea_in_Saguaro_National_Park_near_Tucson%2C_Arizona_during_November_%2858%29.jpg"
+                alt="plan-pic-2">
+            <img class="plant-img"
+                src="https://www.jiomart.com/images/product/original/rvibirnytu/cloud-farm-real-live-dark-red-rose-live-plant-hybrid-for-balcony-terrace-outdoor-gardening-cf_2064-product-images-orvibirnytu-p603649580-0-202308050834.jpg?im=Resize=(1000,1000)"
+                alt="plan-pic-3">
+            <img class="plant-img" src="https://upload.wikimedia.org/wikipedia/commons/4/42/Common_Jasmine.jpg"
+                alt="plan-pic-4">
+        </section><br>
+        <p class="movie-head">Top 4 Movies</p>
+        <hr>
+        <section id="images-3">
+            <img class="movie-img"
+                src="https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_568,c_scale,dpr_1.5/jackets/9781628926552.jpg"
+                alt="movies-pic-1">
+            <img class="movie-img"
+                src="https://m.media-amazon.com/images/S/pv-target-images/ec67a903a53a8b0262ca77c2cd3c371b86ae89639365812b260c586b9c2c8de7.jpg"
+                alt="movies-pic-2">
+            <img class="movie-img"
+                src="https://m.media-amazon.com/images/M/MV5BMWM5ZjQxM2YtNDlmYi00ZDNhLWI4MWUtN2VkYjBlMTY1ZTkwXkEyXkFqcGc@._V1_.jpg"
+                alt="movies-pic-3">
+            <img class="movie-img"
+                src="https://m.media-amazon.com/images/M/MV5BNDYzNGMyOWQtZjU3Ny00NTI2LWIwZTQtMDA2YTUyOGUwNjNjXkEyXkFqcGc@._V1_.jpg"
+                alt="movies-pic-4">
+        </section>
+    </main>
+    <footer>
+        <div id="foot">
+            <h4 style="padding-left: 10px; padding-top: 10px;">Want to connect with me?</h4>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-reddit"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+        </div>
+        <p style="text-align: center; padding-top: 30px;"><b>@ mittajagad71955</b></p>
+    </footer>
+</body>
+
+</html>
